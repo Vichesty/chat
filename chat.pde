@@ -1,4 +1,4 @@
-color c = color(255,0,0);
+color c = color(0,0,0);
 String msg = "";
 ArrayList<String> log;
 
@@ -10,7 +10,6 @@ void setup(){
 void draw(){
   background(255);
   fill(c);
-  rect(100,100,50,50);
   
   textSize(32);
   text(msg, 100, 200);
@@ -36,6 +35,9 @@ void keyPressed(){
     case ENTER:
       log.add(0,msg);
       msg = "";
+      break;
+    case 'd':
+      c = color(0);
       break;
   }
 }
