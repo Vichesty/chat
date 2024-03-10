@@ -34,7 +34,7 @@ void keyPressed(){
       c = color(0,0,255);
       break;
     case ENTER:
-      log.add(msg);
+      log.add(0,msg);
       msg = "";
       break;
   }
