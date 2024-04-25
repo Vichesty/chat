@@ -1,4 +1,4 @@
-color c = color(0,0,0);
+color c = color(255);
 String msg = "";
 ArrayList<String> log;
 
@@ -9,6 +9,10 @@ void setup(){
 
 void draw(){
   background(255);
+
+  fill(0);
+  rect(90, 150, 300, 300);
+
   fill(c);
   
   textSize(32);
