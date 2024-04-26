@@ -8,7 +8,7 @@ void setup(){
 }
 
 void draw(){
-  background(255);
+  background(128);
 
   fill(0);
   rect(90, 150, 300, 300);
