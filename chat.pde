@@ -3,7 +3,7 @@ String msg = "";
 ArrayList<String> log;
 
 void setup(){
-  size(500, 500);
+  size(800,800);
   log = new ArrayList<String>();
 }
 
@@ -15,7 +15,7 @@ void draw(){
 
   fill(c);
   
-  textSize(32);
+  textSize(48);
   text(msg, 100, 200);
 
   for (int i = 0; i < log.size(); i++){
