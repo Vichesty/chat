@@ -15,8 +15,8 @@ void keyPressed(){
       log.add(0,msg);
       msg = "";
       break;
-    case 'd':
-      c = color(0);
-      break;
+    //case 'd':
+      //c = color(0);
+      //break;
   }
 }
